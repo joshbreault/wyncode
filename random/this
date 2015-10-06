@@ -1,0 +1,15 @@
+
+def reverse_this_string str
+	str = str.chars
+	arr = []
+	str.reverse_each do |x|
+
+		arr << x
+
+	end
+
+	str = arr.join
+	str
+end
+my_string = "really long scentence that I want to reverse with my method"
+p reverse_this_string(my_string)

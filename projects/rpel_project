@@ -1,0 +1,8 @@
+puts "Hello and welcome to \"Guess That Word!\""
+puts "Become a millionaire in seconds!"
+puts "Type: \"Rules\" - For a complete set of instructions"
+puts "Type: \"Start\" - To begin your voyage of fortunes!"
+input.gets
+
+if input == "Rules"
+	
